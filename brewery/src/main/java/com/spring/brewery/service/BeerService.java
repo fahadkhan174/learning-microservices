@@ -2,7 +2,7 @@ package com.spring.brewery.service;
 
 import java.util.UUID;
 
-import com.spring.brewery.model.BeerDto;
+import com.spring.brewery.web.model.BeerDto;
 
 public interface BeerService {
 

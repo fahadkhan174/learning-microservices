@@ -2,7 +2,7 @@ package com.spring.brewery.service;
 
 import java.util.UUID;
 
-import com.spring.brewery.model.CustomerDto;
+import com.spring.brewery.web.model.CustomerDto;
 
 public interface CustomerService {
 

@@ -1,4 +1,4 @@
-package com.spring.brewery.model;
+package com.spring.brewery.web.model.v2;
 
 import java.util.UUID;
 
@@ -11,9 +11,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CustomerDto {
-
+public class BeerDtoV2 {
     private UUID id;
-    private String customerName;
+    private String beerName;
+    private BeerStyleEnum beerStyle;
+    private Long upc;
 
 }

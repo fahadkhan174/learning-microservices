@@ -4,8 +4,8 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import com.spring.brewery.model.v2.BeerDtoV2;
-import com.spring.brewery.model.v2.BeerStyleEnum;
+import com.spring.brewery.web.model.v2.BeerDtoV2;
+import com.spring.brewery.web.model.v2.BeerStyleEnum;
 
 import lombok.extern.slf4j.Slf4j;
 
