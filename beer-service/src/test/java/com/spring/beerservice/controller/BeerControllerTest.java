@@ -14,7 +14,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.spring.beerservice.model.BeerDto;
+import com.spring.beerservice.web.controller.BeerController;
+import com.spring.beerservice.web.model.BeerDto;
 
 @WebMvcTest(BeerController.class)
 public class BeerControllerTest {

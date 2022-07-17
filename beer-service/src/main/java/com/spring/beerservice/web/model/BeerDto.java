@@ -1,4 +1,4 @@
-package com.spring.beerservice.model;
+package com.spring.beerservice.web.model;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
