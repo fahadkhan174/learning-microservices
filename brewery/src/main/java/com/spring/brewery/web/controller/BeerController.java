@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.spring.brewery.service.BeerService;
 import com.spring.brewery.web.model.BeerDto;
 
-@Deprecated
 @RestController
 @RequestMapping("/api/v1/beer")
 public class BeerController {

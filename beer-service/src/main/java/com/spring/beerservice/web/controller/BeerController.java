@@ -2,6 +2,8 @@ package com.spring.beerservice.web.controller;
 
 import java.util.UUID;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,14 +33,14 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity<HttpStatus> createBeer(@RequestBody BeerDto beerDto) {
+    public ResponseEntity<HttpStatus> createBeer(@Valid @RequestBody BeerDto beerDto) {
 
         // todo impl
         return new ResponseEntity<HttpStatus>(HttpStatus.CREATED);
     }
 
     @PutMapping("/{beerId}")
-    public ResponseEntity<HttpStatus> updateBeer(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto) {
+    public ResponseEntity<HttpStatus> updateBeer(@PathVariable("beerId") UUID beerId, @Valid @RequestBody BeerDto beerDto) {
 
         // todo impl
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);

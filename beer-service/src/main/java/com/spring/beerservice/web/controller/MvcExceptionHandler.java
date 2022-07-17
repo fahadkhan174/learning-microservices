@@ -1,4 +1,4 @@
-package com.spring.brewery.web.controller;
+package com.spring.beerservice.web.controller;
 
 import java.util.ArrayList;
 import java.util.List;
